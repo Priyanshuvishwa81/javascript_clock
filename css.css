@@ -105,6 +105,18 @@ body {
         height: 30vh;
         width: 30vh;
     }
+    .hour{
+        height: 6vh ;
+        width: 1vh;
+    }
+    .min{
+        height: 10vh ;
+        width: .5vh;
+    }
+    .sec{
+        height: 13vh ;
+        width: .3vh;
+    }
 
 
 }
@@ -116,6 +128,19 @@ body {
         height: 50vh;
         width: 50vh;
     }
+     .hour{
+        height: 7vh ;
+        width: 1vh;
+    }
+    .min{
+        height: 11vh ;
+        width: .5vh;
+    }
+    .sec{
+        height: 14vh ;
+        width: .3vh;
+    }
+
 
 }
 
