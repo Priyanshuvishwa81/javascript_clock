@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(159, 167, 167);
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.main_div {
+    height: 70vh;
+    width: 70vh;
+    transform: rotate(180deg);
+}
+
+.clock {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    box-shadow: inset -2px 3px 20px 13px #9b9090;
+    justify-content: center;
+    align-items: center;
+    transform-origin: top;
+    position: relative;
+
+}
+.glass{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url("clock_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 4;
+    transform: rotate(180deg);
+    box-shadow:  1px 1px 19px 14px #e7caca94;
+   
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+
+
+}
+
+.dot2 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(62, 31, 236);
+    border-radius: 50%;
+    display: flex;
+    z-index: 8;
+}
+
+.hour {
+    height: 13vh;
+    width: 1.5vh;
+    background-color: rgb(129, 218, 69);
+    position: absolute;
+    transform-origin: top;
+    transform: rotate(0deg);
+    transform: rotateY(90deg);
+    border-radius: 40%;
+
+}
+
+.min {
+    height: 20vh;
+    width: 1vh;
+    background-color: rgb(79, 130, 224);
+    position: absolute;
+    transform-origin: top;
+    border-radius: 40%;
+    transform: rotate(0deg);
+
+}
+
+.sec {
+    height: 25vh;
+    width: .5vh;
+    background-color: rgb(216, 113, 113);
+    position: absolute;
+    transform-origin: top;
+    transform: rotate(0deg);
+    border-radius: 40%;
+}
+
+@media only screen and (max-width:450px) {
+
+    .main_div {
+        height: 30vh;
+        width: 30vh;
+    }
+
+
+}
+
+
+@media only screen and (max-width:600px) and (min-width:450px) {
+
+    .main_div {
+        height: 50vh;
+        width: 50vh;
+    }
+
+}
+
+@media only screen and (max-width:800px) and (min-width:600px) {
+
+    .main_div {
+        height: 70vh;
+        width: 70vh;
+    }
+
+}
